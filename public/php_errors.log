@@ -1,0 +1,129 @@
+[08-Jan-2020 08:57:59 UTC] PHP Notice:  Undefined index: APPLICATION_ENV in /Users/locdd/projects/zend3-study/ModernTunesApi/public/index.php on line 9
+[08-Jan-2020 08:58:00 UTC] PHP Notice:  Undefined index: APPLICATION_ENV in /Users/locdd/projects/zend3-study/ModernTunesApi/public/index.php on line 9
+[09-Jan-2020 04:16:43 UTC] PHP Parse error:  syntax error, unexpected ';' in /Users/locdd/projects/zend3-study/ModernTunesApi/public/index.php on line 21
+[09-Jan-2020 04:30:46 UTC] PHP Fatal error:  Uncaught exception 'Zend\ModuleManager\Exception\RuntimeException' with message 'Module (Itunes) could not be initialized.' in /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-modulemanager/src/ModuleManager.php:201
+Stack trace:
+#0 /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-modulemanager/src/ModuleManager.php(173): Zend\ModuleManager\ModuleManager->loadModuleByName(Object(Zend\ModuleManager\ModuleEvent))
+#1 /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-modulemanager/src/ModuleManager.php(95): Zend\ModuleManager\ModuleManager->loadModule('Itunes')
+#2 /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-eventmanager/src/EventManager.php(322): Zend\ModuleManager\ModuleManager->onLoadModules(Object(Zend\ModuleManager\ModuleEvent))
+#3 /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-eventmanager/src/EventManager.php(171): Zend\EventManager\EventManager->triggerListeners(Object(Zend in /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-modulemanager/src/ModuleManager.php on line 201
+[09-Jan-2020 04:35:21 UTC] PHP Fatal error:  Uncaught exception 'Zend\ModuleManager\Exception\RuntimeException' with message 'Module (Itunes) could not be initialized.' in /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-modulemanager/src/ModuleManager.php:201
+Stack trace:
+#0 /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-modulemanager/src/ModuleManager.php(173): Zend\ModuleManager\ModuleManager->loadModuleByName(Object(Zend\ModuleManager\ModuleEvent))
+#1 /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-modulemanager/src/ModuleManager.php(95): Zend\ModuleManager\ModuleManager->loadModule('Itunes')
+#2 /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-eventmanager/src/EventManager.php(322): Zend\ModuleManager\ModuleManager->onLoadModules(Object(Zend\ModuleManager\ModuleEvent))
+#3 /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-eventmanager/src/EventManager.php(171): Zend\EventManager\EventManager->triggerListeners(Object(Zend in /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-modulemanager/src/ModuleManager.php on line 201
+[09-Jan-2020 04:36:20 UTC] PHP Fatal error:  Uncaught exception 'Zend\ModuleManager\Exception\RuntimeException' with message 'Module (Itunes) could not be initialized.' in /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-modulemanager/src/ModuleManager.php:201
+Stack trace:
+#0 /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-modulemanager/src/ModuleManager.php(173): Zend\ModuleManager\ModuleManager->loadModuleByName(Object(Zend\ModuleManager\ModuleEvent))
+#1 /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-modulemanager/src/ModuleManager.php(95): Zend\ModuleManager\ModuleManager->loadModule('Itunes')
+#2 /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-eventmanager/src/EventManager.php(322): Zend\ModuleManager\ModuleManager->onLoadModules(Object(Zend\ModuleManager\ModuleEvent))
+#3 /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-eventmanager/src/EventManager.php(171): Zend\EventManager\EventManager->triggerListeners(Object(Zend in /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-modulemanager/src/ModuleManager.php on line 201
+[09-Jan-2020 04:36:55 UTC] PHP Fatal error:  Uncaught exception 'Zend\ModuleManager\Exception\RuntimeException' with message 'Module (Itunes) could not be initialized.' in /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-modulemanager/src/ModuleManager.php:201
+Stack trace:
+#0 /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-modulemanager/src/ModuleManager.php(173): Zend\ModuleManager\ModuleManager->loadModuleByName(Object(Zend\ModuleManager\ModuleEvent))
+#1 /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-modulemanager/src/ModuleManager.php(95): Zend\ModuleManager\ModuleManager->loadModule('Itunes')
+#2 /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-eventmanager/src/EventManager.php(322): Zend\ModuleManager\ModuleManager->onLoadModules(Object(Zend\ModuleManager\ModuleEvent))
+#3 /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-eventmanager/src/EventManager.php(171): Zend\EventManager\EventManager->triggerListeners(Object(Zend in /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-modulemanager/src/ModuleManager.php on line 201
+[09-Jan-2020 04:42:19 UTC] PHP Fatal error:  Uncaught exception 'Zend\ModuleManager\Exception\RuntimeException' with message 'Module (Itunes) could not be initialized.' in /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-modulemanager/src/ModuleManager.php:201
+Stack trace:
+#0 /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-modulemanager/src/ModuleManager.php(173): Zend\ModuleManager\ModuleManager->loadModuleByName(Object(Zend\ModuleManager\ModuleEvent))
+#1 /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-modulemanager/src/ModuleManager.php(95): Zend\ModuleManager\ModuleManager->loadModule('Itunes')
+#2 /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-eventmanager/src/EventManager.php(322): Zend\ModuleManager\ModuleManager->onLoadModules(Object(Zend\ModuleManager\ModuleEvent))
+#3 /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-eventmanager/src/EventManager.php(171): Zend\EventManager\EventManager->triggerListeners(Object(Zend in /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-modulemanager/src/ModuleManager.php on line 201
+[09-Jan-2020 04:44:56 UTC] PHP Fatal error:  Uncaught exception 'Zend\ModuleManager\Exception\RuntimeException' with message 'Module (Itunes) could not be initialized.' in /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-modulemanager/src/ModuleManager.php:201
+Stack trace:
+#0 /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-modulemanager/src/ModuleManager.php(173): Zend\ModuleManager\ModuleManager->loadModuleByName(Object(Zend\ModuleManager\ModuleEvent))
+#1 /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-modulemanager/src/ModuleManager.php(95): Zend\ModuleManager\ModuleManager->loadModule('Itunes')
+#2 /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-eventmanager/src/EventManager.php(322): Zend\ModuleManager\ModuleManager->onLoadModules(Object(Zend\ModuleManager\ModuleEvent))
+#3 /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-eventmanager/src/EventManager.php(171): Zend\EventManager\EventManager->triggerListeners(Object(Zend in /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-modulemanager/src/ModuleManager.php on line 201
+[09-Jan-2020 04:45:42 UTC] PHP Fatal error:  Uncaught exception 'Zend\ModuleManager\Exception\RuntimeException' with message 'Module (Itunes) could not be initialized.' in /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-modulemanager/src/ModuleManager.php:201
+Stack trace:
+#0 /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-modulemanager/src/ModuleManager.php(173): Zend\ModuleManager\ModuleManager->loadModuleByName(Object(Zend\ModuleManager\ModuleEvent))
+#1 /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-modulemanager/src/ModuleManager.php(95): Zend\ModuleManager\ModuleManager->loadModule('Itunes')
+#2 /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-eventmanager/src/EventManager.php(322): Zend\ModuleManager\ModuleManager->onLoadModules(Object(Zend\ModuleManager\ModuleEvent))
+#3 /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-eventmanager/src/EventManager.php(171): Zend\EventManager\EventManager->triggerListeners(Object(Zend in /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-modulemanager/src/ModuleManager.php on line 201
+[09-Jan-2020 04:47:35 UTC] PHP Fatal error:  Uncaught exception 'Zend\ModuleManager\Exception\RuntimeException' with message 'Module (Itunes) could not be initialized.' in /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-modulemanager/src/ModuleManager.php:201
+Stack trace:
+#0 /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-modulemanager/src/ModuleManager.php(173): Zend\ModuleManager\ModuleManager->loadModuleByName(Object(Zend\ModuleManager\ModuleEvent))
+#1 /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-modulemanager/src/ModuleManager.php(95): Zend\ModuleManager\ModuleManager->loadModule('Itunes')
+#2 /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-eventmanager/src/EventManager.php(322): Zend\ModuleManager\ModuleManager->onLoadModules(Object(Zend\ModuleManager\ModuleEvent))
+#3 /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-eventmanager/src/EventManager.php(171): Zend\EventManager\EventManager->triggerListeners(Object(Zend in /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-modulemanager/src/ModuleManager.php on line 201
+[09-Jan-2020 04:48:15 UTC] PHP Fatal error:  Uncaught exception 'Zend\ModuleManager\Exception\RuntimeException' with message 'Module (Itunes) could not be initialized.' in /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-modulemanager/src/ModuleManager.php:201
+Stack trace:
+#0 /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-modulemanager/src/ModuleManager.php(173): Zend\ModuleManager\ModuleManager->loadModuleByName(Object(Zend\ModuleManager\ModuleEvent))
+#1 /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-modulemanager/src/ModuleManager.php(95): Zend\ModuleManager\ModuleManager->loadModule('Itunes')
+#2 /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-eventmanager/src/EventManager.php(322): Zend\ModuleManager\ModuleManager->onLoadModules(Object(Zend\ModuleManager\ModuleEvent))
+#3 /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-eventmanager/src/EventManager.php(171): Zend\EventManager\EventManager->triggerListeners(Object(Zend in /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-modulemanager/src/ModuleManager.php on line 201
+[09-Jan-2020 04:48:19 UTC] PHP Fatal error:  Uncaught exception 'Zend\ModuleManager\Exception\RuntimeException' with message 'Module (Itunes) could not be initialized.' in /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-modulemanager/src/ModuleManager.php:201
+Stack trace:
+#0 /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-modulemanager/src/ModuleManager.php(173): Zend\ModuleManager\ModuleManager->loadModuleByName(Object(Zend\ModuleManager\ModuleEvent))
+#1 /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-modulemanager/src/ModuleManager.php(95): Zend\ModuleManager\ModuleManager->loadModule('Itunes')
+#2 /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-eventmanager/src/EventManager.php(322): Zend\ModuleManager\ModuleManager->onLoadModules(Object(Zend\ModuleManager\ModuleEvent))
+#3 /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-eventmanager/src/EventManager.php(171): Zend\EventManager\EventManager->triggerListeners(Object(Zend in /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-modulemanager/src/ModuleManager.php on line 201
+[09-Jan-2020 04:52:34 UTC] PHP Fatal error:  Uncaught exception 'Zend\ModuleManager\Exception\RuntimeException' with message 'Module (Itunes) could not be initialized.' in /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-modulemanager/src/ModuleManager.php:201
+Stack trace:
+#0 /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-modulemanager/src/ModuleManager.php(173): Zend\ModuleManager\ModuleManager->loadModuleByName(Object(Zend\ModuleManager\ModuleEvent))
+#1 /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-modulemanager/src/ModuleManager.php(95): Zend\ModuleManager\ModuleManager->loadModule('Itunes')
+#2 /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-eventmanager/src/EventManager.php(322): Zend\ModuleManager\ModuleManager->onLoadModules(Object(Zend\ModuleManager\ModuleEvent))
+#3 /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-eventmanager/src/EventManager.php(171): Zend\EventManager\EventManager->triggerListeners(Object(Zend in /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-modulemanager/src/ModuleManager.php on line 201
+[09-Jan-2020 05:00:31 UTC] PHP Fatal error:  Uncaught exception 'Zend\ModuleManager\Exception\RuntimeException' with message 'Module (Itunes) could not be initialized.' in /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-modulemanager/src/ModuleManager.php:201
+Stack trace:
+#0 /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-modulemanager/src/ModuleManager.php(173): Zend\ModuleManager\ModuleManager->loadModuleByName(Object(Zend\ModuleManager\ModuleEvent))
+#1 /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-modulemanager/src/ModuleManager.php(95): Zend\ModuleManager\ModuleManager->loadModule('Itunes')
+#2 /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-eventmanager/src/EventManager.php(322): Zend\ModuleManager\ModuleManager->onLoadModules(Object(Zend\ModuleManager\ModuleEvent))
+#3 /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-eventmanager/src/EventManager.php(171): Zend\EventManager\EventManager->triggerListeners(Object(Zend in /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-modulemanager/src/ModuleManager.php on line 201
+[09-Jan-2020 05:00:33 UTC] PHP Fatal error:  Uncaught exception 'Zend\ModuleManager\Exception\RuntimeException' with message 'Module (Itunes) could not be initialized.' in /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-modulemanager/src/ModuleManager.php:201
+Stack trace:
+#0 /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-modulemanager/src/ModuleManager.php(173): Zend\ModuleManager\ModuleManager->loadModuleByName(Object(Zend\ModuleManager\ModuleEvent))
+#1 /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-modulemanager/src/ModuleManager.php(95): Zend\ModuleManager\ModuleManager->loadModule('Itunes')
+#2 /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-eventmanager/src/EventManager.php(322): Zend\ModuleManager\ModuleManager->onLoadModules(Object(Zend\ModuleManager\ModuleEvent))
+#3 /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-eventmanager/src/EventManager.php(171): Zend\EventManager\EventManager->triggerListeners(Object(Zend in /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-modulemanager/src/ModuleManager.php on line 201
+[09-Jan-2020 05:00:34 UTC] PHP Fatal error:  Uncaught exception 'Zend\ModuleManager\Exception\RuntimeException' with message 'Module (Itunes) could not be initialized.' in /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-modulemanager/src/ModuleManager.php:201
+Stack trace:
+#0 /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-modulemanager/src/ModuleManager.php(173): Zend\ModuleManager\ModuleManager->loadModuleByName(Object(Zend\ModuleManager\ModuleEvent))
+#1 /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-modulemanager/src/ModuleManager.php(95): Zend\ModuleManager\ModuleManager->loadModule('Itunes')
+#2 /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-eventmanager/src/EventManager.php(322): Zend\ModuleManager\ModuleManager->onLoadModules(Object(Zend\ModuleManager\ModuleEvent))
+#3 /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-eventmanager/src/EventManager.php(171): Zend\EventManager\EventManager->triggerListeners(Object(Zend in /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-modulemanager/src/ModuleManager.php on line 201
+[09-Jan-2020 05:09:56 UTC] PHP Fatal error:  Uncaught exception 'Zend\ModuleManager\Exception\RuntimeException' with message 'Module (Album) could not be initialized.' in /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-modulemanager/src/ModuleManager.php:201
+Stack trace:
+#0 /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-modulemanager/src/ModuleManager.php(173): Zend\ModuleManager\ModuleManager->loadModuleByName(Object(Zend\ModuleManager\ModuleEvent))
+#1 /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-modulemanager/src/ModuleManager.php(95): Zend\ModuleManager\ModuleManager->loadModule('Album')
+#2 /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-eventmanager/src/EventManager.php(322): Zend\ModuleManager\ModuleManager->onLoadModules(Object(Zend\ModuleManager\ModuleEvent))
+#3 /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-eventmanager/src/EventManager.php(171): Zend\EventManager\EventManager->triggerListeners(Object(Zend\M in /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-modulemanager/src/ModuleManager.php on line 201
+[09-Jan-2020 05:10:16 UTC] PHP Fatal error:  Uncaught exception 'Zend\ModuleManager\Exception\RuntimeException' with message 'Module (Itunes) could not be initialized.' in /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-modulemanager/src/ModuleManager.php:201
+Stack trace:
+#0 /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-modulemanager/src/ModuleManager.php(173): Zend\ModuleManager\ModuleManager->loadModuleByName(Object(Zend\ModuleManager\ModuleEvent))
+#1 /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-modulemanager/src/ModuleManager.php(95): Zend\ModuleManager\ModuleManager->loadModule('Itunes')
+#2 /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-eventmanager/src/EventManager.php(322): Zend\ModuleManager\ModuleManager->onLoadModules(Object(Zend\ModuleManager\ModuleEvent))
+#3 /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-eventmanager/src/EventManager.php(171): Zend\EventManager\EventManager->triggerListeners(Object(Zend in /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-modulemanager/src/ModuleManager.php on line 201
+[09-Jan-2020 05:10:22 UTC] PHP Fatal error:  Uncaught exception 'Zend\ModuleManager\Exception\RuntimeException' with message 'Module (Itunes) could not be initialized.' in /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-modulemanager/src/ModuleManager.php:201
+Stack trace:
+#0 /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-modulemanager/src/ModuleManager.php(173): Zend\ModuleManager\ModuleManager->loadModuleByName(Object(Zend\ModuleManager\ModuleEvent))
+#1 /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-modulemanager/src/ModuleManager.php(95): Zend\ModuleManager\ModuleManager->loadModule('Itunes')
+#2 /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-eventmanager/src/EventManager.php(322): Zend\ModuleManager\ModuleManager->onLoadModules(Object(Zend\ModuleManager\ModuleEvent))
+#3 /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-eventmanager/src/EventManager.php(171): Zend\EventManager\EventManager->triggerListeners(Object(Zend in /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-modulemanager/src/ModuleManager.php on line 201
+[09-Jan-2020 05:26:17 UTC] PHP Fatal error:  Uncaught exception 'Zend\ModuleManager\Exception\RuntimeException' with message 'Module (Itunes) could not be initialized.' in /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-modulemanager/src/ModuleManager.php:201
+Stack trace:
+#0 /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-modulemanager/src/ModuleManager.php(173): Zend\ModuleManager\ModuleManager->loadModuleByName(Object(Zend\ModuleManager\ModuleEvent))
+#1 /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-modulemanager/src/ModuleManager.php(95): Zend\ModuleManager\ModuleManager->loadModule('Itunes')
+#2 /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-eventmanager/src/EventManager.php(322): Zend\ModuleManager\ModuleManager->onLoadModules(Object(Zend\ModuleManager\ModuleEvent))
+#3 /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-eventmanager/src/EventManager.php(171): Zend\EventManager\EventManager->triggerListeners(Object(Zend in /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-modulemanager/src/ModuleManager.php on line 201
+[09-Jan-2020 05:26:25 UTC] PHP Notice:  Undefined variable: albums in /Users/locdd/projects/zend3-study/ModernTunesApi/module/Album/view/album/album/index.phtml on line 20
+[09-Jan-2020 05:26:25 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/locdd/projects/zend3-study/ModernTunesApi/module/Album/view/album/album/index.phtml on line 20
+[09-Jan-2020 05:26:39 UTC] PHP Notice:  Undefined variable: albums in /Users/locdd/projects/zend3-study/ModernTunesApi/module/Album/view/album/album/index.phtml on line 20
+[09-Jan-2020 05:26:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/locdd/projects/zend3-study/ModernTunesApi/module/Album/view/album/album/index.phtml on line 20
+[09-Jan-2020 05:28:43 UTC] PHP Notice:  Undefined variable: albums in /Users/locdd/projects/zend3-study/ModernTunesApi/module/Album/view/album/album/index.phtml on line 20
+[09-Jan-2020 05:28:43 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/locdd/projects/zend3-study/ModernTunesApi/module/Album/view/album/album/index.phtml on line 20
+[09-Jan-2020 05:28:53 UTC] PHP Fatal error:  Uncaught exception 'Zend\ModuleManager\Exception\RuntimeException' with message 'Module (Itunes) could not be initialized.' in /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-modulemanager/src/ModuleManager.php:201
+Stack trace:
+#0 /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-modulemanager/src/ModuleManager.php(173): Zend\ModuleManager\ModuleManager->loadModuleByName(Object(Zend\ModuleManager\ModuleEvent))
+#1 /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-modulemanager/src/ModuleManager.php(95): Zend\ModuleManager\ModuleManager->loadModule('Itunes')
+#2 /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-eventmanager/src/EventManager.php(322): Zend\ModuleManager\ModuleManager->onLoadModules(Object(Zend\ModuleManager\ModuleEvent))
+#3 /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-eventmanager/src/EventManager.php(171): Zend\EventManager\EventManager->triggerListeners(Object(Zend in /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-modulemanager/src/ModuleManager.php on line 201
+[09-Jan-2020 05:36:05 UTC] PHP Fatal error:  Uncaught exception 'Zend\ModuleManager\Exception\RuntimeException' with message 'Module (Itunes) could not be initialized.' in /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-modulemanager/src/ModuleManager.php:201
+Stack trace:
+#0 /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-modulemanager/src/ModuleManager.php(173): Zend\ModuleManager\ModuleManager->loadModuleByName(Object(Zend\ModuleManager\ModuleEvent))
+#1 /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-modulemanager/src/ModuleManager.php(95): Zend\ModuleManager\ModuleManager->loadModule('Itunes')
+#2 /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-eventmanager/src/EventManager.php(322): Zend\ModuleManager\ModuleManager->onLoadModules(Object(Zend\ModuleManager\ModuleEvent))
+#3 /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-eventmanager/src/EventManager.php(171): Zend\EventManager\EventManager->triggerListeners(Object(Zend in /Users/locdd/projects/zend3-study/ModernTunesApi/vendor/zendframework/zend-modulemanager/src/ModuleManager.php on line 201
